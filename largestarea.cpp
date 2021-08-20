@@ -89,7 +89,7 @@ int main()
         }
         else if(ansnsr1[i]==-1)
         {
-            ans=max(ans,(7-(ansnsl[i]+1))*arr[i]);
+            ans=max(ans,(n-(ansnsl[i]+1))*arr[i]);
             // cout<<ans<<"hello3";
         }
         else
